@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.squaresContainer {
+    width: 840px;
+    height: 840px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(16, 1fr);
+} 
